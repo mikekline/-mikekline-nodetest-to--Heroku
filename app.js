@@ -1,7 +1,12 @@
 const path = require('path');
 const express = require('express');
+const definitions = require('./definitions.js');
 
 const app = express();
+
+app.get('/api/v1/definitions', function(request, response){
+  response.json(definitions);
+})
 
 app.use(express.static(path.join(__dirname, 'public')));
 
