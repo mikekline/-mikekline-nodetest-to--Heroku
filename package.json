@@ -1,5 +1,5 @@
 {
-  "name": "express-hello-world",
+  "name": "-mikekline-nodetest-to--Heroku",
   "version": "1.0.0",
   "engines": {
     "node": "^12.16.1"
@@ -9,9 +9,17 @@
   "scripts": {
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikekline/-mikekline-nodetest-to--Heroku.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikekline/-mikekline-nodetest-to--Heroku/issues"
+  },
+  "homepage": "https://github.com/mikekline/-mikekline-nodetest-to--Heroku#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
